@@ -3,17 +3,15 @@ JLWeather
 
 Handy Wrapper for Fetching Weather from the OpenWeatherMap
 
-Steps:
-  1. Copy the header and the main file to your project.
-  2. Import the header file into the header
-
 Dependencies
 =============
 CoreLocation
 
 Usage
 =============
-
+Steps:
+  1. Copy the header and the main file to your project.
+  2. Import the header file into the header
 
 License
 =============
