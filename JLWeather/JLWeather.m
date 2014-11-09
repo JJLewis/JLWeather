@@ -79,9 +79,9 @@
     // main
     _humidity = [weatherServiceResponse[@"main"][@"humidity"] integerValue];
     _pressure = [weatherServiceResponse[@"main"][@"pressure"] integerValue];
-    _tempCurrent = [Weather kelvinToCelsius:[weatherServiceResponse[@"main"][@"temp"] doubleValue]];
-    _tempMin = [Weather kelvinToCelsius:[weatherServiceResponse[@"main"][@"temp_min"] doubleValue]];
-    _tempMax = [Weather kelvinToCelsius:[weatherServiceResponse[@"main"][@"temp_max"] doubleValue]];
+    _tempCurrent = [JLWeather kelvinToCelsius:[weatherServiceResponse[@"main"][@"temp"] doubleValue]];
+    _tempMin = [JLWeather kelvinToCelsius:[weatherServiceResponse[@"main"][@"temp_min"] doubleValue]];
+    _tempMax = [JLWeather kelvinToCelsius:[weatherServiceResponse[@"main"][@"temp_max"] doubleValue]];
     
     // name
     _city = weatherServiceResponse[@"name"];
