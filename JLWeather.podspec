@@ -16,16 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JLWeather"
-  s.version      = "1.0"
+  s.version      = "1.01"
   s.summary      = "Handy Wrapper for Fetching Weather from the OpenWeatherMap"
 
   s.description  = <<-DESC
-                   A longer description of JLWeather in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+			One of the easiest ways to fetch reliable weather data from the Open Weather Map.
                    DESC
 
   s.homepage     = "https://github.com/JJLewis/JLWeather"
@@ -78,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JJLewis/JLWeather.git", :commit => "68d2299da4d28f43d8027c74d23bbf4a8dd5d259", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/JJLewis/JLWeather.git", :commit => "68d2299da4d28f43d8027c74d23bbf4a8dd5d259", :tag => "1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
